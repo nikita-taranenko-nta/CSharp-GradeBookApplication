@@ -40,7 +40,7 @@ namespace GradeBook.UserInterfaces
                 return;
             }
             var name = parts[2];
-            var gradeBook = new BaseGradeBook(name);
+            BaseGradeBook gradeBook;
             if (name == "standard")
             {
                 gradeBook = new StandardGradeBook(name);
